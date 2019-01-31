@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_menu_product"
+            android:icon="@drawable/ic_wb_sunny_black_24dp"
+            android:title="Товары" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_menu_contacts"
+            android:icon="@drawable/ic_wb_sunny_black_24dp"
+            android:title="Контакты" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_mune_comment"
+            android:icon="@drawable/ic_wb_sunny_black_24dp"
+            android:title="Отзывы" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main_menu_payment"
+            android:icon="@drawable/ic_wb_sunny_black_24dp"
+            android:title="Доставка и оплата" />
+    </group>
+
+</menu>
